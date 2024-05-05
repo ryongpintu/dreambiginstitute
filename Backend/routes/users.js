@@ -6,9 +6,9 @@ const express = require('express');
 const _ = require('lodash');
 const router = express.Router();
 
-router.get('/me', auth, async (req, res) => {
-	const user = await User.findById(req.user._id).select('-password');
-	res.send(user);
+router.get('/me', async (req, res) => {
+
+	res.send("server is up");
 });
 router.post('/', async (req, res) => {
 	console.log("Backend Body " + JSON.stringify(req.body));
