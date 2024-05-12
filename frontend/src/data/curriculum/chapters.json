@@ -1,0 +1,44 @@
+[
+    {
+        "id": "chapter-01",
+        "title": "Computer knowledge",
+        "description": "General introduction about computer and its parts",
+        "lessons": ["lesson-01", "lesson-02", "lesson-03"]
+    },
+    {
+        "id": "chapter-02",
+        "title": "Basic software introduction ",
+        "description": "Learn about the basics apps like Excel , Powerpoint, Word",
+        "lessons": ["lesson-04", "lesson-05"]
+    },
+    {
+        "id": "chapter-03",
+        "title": "Learn to type fast like pro",
+        "description": "Learn to accelerate your typing speed",
+        "lessons": ["lesson-06", "lesson-07", "lesson-08"]
+    },
+    {
+        "id": "chapter-04",
+        "title": "Basic of Programming",
+        "description": "Learn about the programming language C++ and Java",
+        "lessons": ["lesson-09", "lesson-10", "lesson-11"]
+    },
+    {
+        "id": "chapter-05",
+        "title": "Interview Preparation",
+        "description": "Learn how to speak confidently in Hindi and english",
+        "lessons": ["lesson-12", "lesson-13", "lesson-14"]
+    },
+    {
+        "id": "chapter-06",
+        "title": "How to speak clearly",
+        "description": "Learn to speak crystal clear",
+        "lessons": ["lesson-15", "lesson-16", "lesson-17"]
+    },
+    {
+        "id": "chapter-07",
+        "title": "Personality development",
+        "description": "Learn necessary body language and discipline  ",
+        "lessons": ["lesson-18", "lesson-19", "lesson-20"]
+    }
+]

@@ -1,0 +1,69 @@
+{
+    "name": "contact-us",
+    "content": [
+        {
+            "section": "contact-info",
+            "section_title": {
+                "title": "For more information about our courses, get in touch with us"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "title": "Address",
+                    "icon": "fas fa-map-marker-alt",
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Saraiya Bus stand , above Honda Showroom "
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "Contact",
+                    "icon": "fas fa-phone",
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Mobile: <a href='tel:(+91)-946596-2944'><strong>(+91)-946596-2944</strong></a>"
+                        },
+                        {
+                            "id": 3,
+                            "content": "Mail: <a href='mailto:ranapintukumar01@gmail.com'>ranapintukumar01@gmail.com</a>"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "Hour of operation",
+                    "icon": "fas fa-clock",
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Monday – Friday : 09:00 – 08:00"
+                        },
+                        {
+                            "id": 2,
+                            "content": "Sunday & Saturday: 10:30 – 8:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "src": "/images/contact/contact.jpg"
+                }
+            ],
+            "location": {
+                "latitude": 24.2017259,
+                "longitude": 85.3386658
+            }
+        },
+        {
+            "section": "contact-form",
+            "section_title": {
+                "title": "Fill out this form for booking a consultant advising session."
+            }
+        }
+    ]
+}
