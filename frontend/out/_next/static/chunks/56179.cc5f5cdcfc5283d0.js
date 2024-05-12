@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[56179],{56179:function(e,t,r){r.r(t);var u=r(85893),l=r(67294),a=r(73935);let c=e=>{let{children:t}=e,[r,c]=(0,l.useState)(!1),n=document.querySelector("#portal");return((0,l.useEffect)(()=>(c(!0),()=>c(!1)),[]),n)?r?(0,a.createPortal)(t,n):null:(0,u.jsx)(u.Fragment,{children:t})};t.default=c}}]);

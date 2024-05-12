@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[62521],{62521:function(e,t,a){var n=a(67294);function s(e){return n.createElement("svg",e,n.createElement("path",{className:"elementor-shape-fill",d:"M 0 0 L0 100 L100 100 L100 0 Q 50 200 0 0"}))}s.defaultProps={viewBox:"0 0 100 100",preserveAspectRatio:"none",height:"100"},e.exports=s,s.default=s}}]);
