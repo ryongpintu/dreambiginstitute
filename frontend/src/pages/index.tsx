@@ -6,10 +6,8 @@ import HeroArea from "@containers/hero/layout-02";
 import BrandArea from "@containers/brand/layout-01";
 import CourseArea from "@containers/course/layout-03";
 import ServiceArea from "@containers/service/layout-02";
-import VideoArea from "@containers/video/layout-02";
 import TestimonialArea from "@containers/testimonial/layout-02";
 import CtaArea from "@containers/cta/layout-02";
-import FunFactArea from "@containers/funfact/layout-03";
 import BlogArea from "@containers/blog/layout-02";
 import NewsletterArea from "@containers/newsletter/layout-01";
 

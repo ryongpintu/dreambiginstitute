@@ -17,19 +17,7 @@ type TProps = Pick<
 };
 
 const CourseCard = forwardRef<HTMLDivElement, TProps>(
-    (
-        {
-            className,
-            thumbnail,
-            title,
-            path,
-            currency,
-            price,
-            total_lectures,
-            total_students,
-        },
-        ref
-    ) => {
+    ({ className, thumbnail, title, path, total_lectures }, ref) => {
         return (
             <div
                 className={clsx(
