@@ -33,11 +33,11 @@ const Footer01 = ({ mode }: TProps) => {
                     />
                 </div>
                 <p className="copyright tw-text-center tw-text-md tw-text-gray-400 tw-mt-5">
-                    &copy; {new Date().getFullYear()} Maxcoach.{" "}
+                    &copy; {new Date().getFullYear()} Dream Big Institute.{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://themeforest.net/user/bootxperts/portfolio"
+                        href="https://idreambig.in/about-us-01"
                     >
                         All Rights Reserved
                     </a>

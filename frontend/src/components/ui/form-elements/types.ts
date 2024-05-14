@@ -7,7 +7,10 @@ export interface IFeedback {
 }
 
 export type TInput = HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement;
-
+interface Option {
+    label: string;
+    value: string;
+}
 export type TCustomStyle = "noborder" | "nofocus";
 export interface IInputProps extends IFeedback {
     className?: string;
@@ -25,4 +28,5 @@ export interface IInputProps extends IFeedback {
     onClick?: (e: MouseEvent<TInput>) => void;
     onBlur?: (e: FocusEvent<TInput>) => void;
     customStyle?: TCustomStyle;
+    options?: Option[];
 }

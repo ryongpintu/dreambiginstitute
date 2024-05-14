@@ -5,7 +5,7 @@
             "section": "cta-area",
             "section_title": {
                 "title": "Take your interest and register an online class <br/> today to enjoy life fully",
-                "subtitle":"New horizon is calling"
+                "subtitle": "New horizon is calling"
             },
             "buttons": [
                 {
@@ -14,7 +14,7 @@
                     "content": "Get started for free"
                 }
             ]
-        }, 
+        },
         {
             "section": "funfact-area",
             "items": [

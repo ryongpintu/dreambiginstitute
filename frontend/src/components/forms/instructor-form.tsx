@@ -1,13 +1,12 @@
-import { useState } from "react";
 import clsx from "clsx";
 import { useForm, SubmitHandler } from "react-hook-form";
-import Alert from "@ui/alert";
-import Anchor from "@ui/anchor";
 import Button from "@ui/button";
 import Input from "@ui/form-elements/input";
-import Textarea from "@ui/form-elements/textarea";
-import Feedback from "@ui/form-elements/feedback";
 import { hasKey } from "@utils/methods";
+import { client, FACULTY_API_END_POINT } from "services/user";
+import Select from "@components/ui/form-elements/select";
+import { toast } from "react-toastify";
+import { AxiosError } from "axios";
 
 type TProps = {
     className?: string;
@@ -17,21 +16,36 @@ interface IFormValues {
     name: string;
     email: string;
     phone: string;
-    message: string;
+    board: string;
+    address: string;
+    qualification: string;
 }
 
+const BoardOptions = [
+    { label: "Select 10th Board type", value: "" },
+    { label: "JAC", value: "JAC" },
+    { label: "CBSE", value: "CBSE" },
+];
+
 const InstructorForm = ({ className }: TProps) => {
-    const [message, setMessage] = useState("");
     const {
         register,
         handleSubmit,
         formState: { errors },
+        reset,
     } = useForm<IFormValues>();
 
-    const onSubmit: SubmitHandler<IFormValues> = (data) => {
+    const onSubmit: SubmitHandler<IFormValues> = async (data) => {
         // eslint-disable-next-line no-console
-        console.log(data);
-        setMessage("Thank you for your message!");
+
+        try {
+            await client.post(FACULTY_API_END_POINT, data);
+            toast.success("Thank you! Our Team will reach you ");
+            reset();
+        } catch (err: unknown) {
+            const knownError = err as AxiosError;
+            toast.error(knownError?.response?.data as string);
+        }
     };
     return (
         <div
@@ -47,84 +61,118 @@ const InstructorForm = ({ className }: TProps) => {
                 className="become-teacher-form"
                 onSubmit={handleSubmit(onSubmit)}
             >
-                <Alert className="tw-mb-5">
-                    <i className="far fa-exclamation-circle" />
-                    Please <Anchor path="/login-register">login</Anchor> to send
-                    your request!
-                </Alert>
-                <div className="tw-grid md:tw-grid-cols-2 md:tw-gap-7.5">
-                    <div className="tw-mb-3.8">
-                        <label htmlFor="name" className="tw-sr-only">
-                            Name
-                        </label>
-                        <Input
-                            id="name"
-                            placeholder="Your Name *"
-                            feedbackText={errors?.name?.message}
-                            state={hasKey(errors, "name") ? "error" : "success"}
-                            showState={!!hasKey(errors, "name")}
-                            {...register("name", {
-                                required: "Name is required",
-                            })}
-                        />
-                    </div>
-                    <div className="tw-mb-3.8">
-                        <label htmlFor="email" className="tw-sr-only">
-                            Email
-                        </label>
-                        <Input
-                            type="email"
-                            id="email"
-                            placeholder="Email *"
-                            feedbackText={errors?.email?.message}
-                            state={
-                                hasKey(errors, "email") ? "error" : "success"
-                            }
-                            showState={!!hasKey(errors, "email")}
-                            {...register("email", {
-                                required: "Email is required",
-                                pattern: {
-                                    value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
-                                    message: "invalid email address",
-                                },
-                            })}
-                        />
-                    </div>
+                <div className="tw-mb-3.8">
+                    <label htmlFor="name" className="tw-sr-only">
+                        Full Name
+                    </label>
+                    <Input
+                        id="name"
+                        bg="light"
+                        placeholder="Full Name *"
+                        feedbackText={errors?.name?.message}
+                        state={hasKey(errors, "name") ? "error" : "success"}
+                        showState={!!hasKey(errors, "name")}
+                        {...register("name", {
+                            required: "Name is required",
+                        })}
+                    />
                 </div>
+
                 <div className="tw-mb-3.8">
                     <label htmlFor="phone" className="tw-sr-only">
                         Phone
                     </label>
                     <Input
                         id="phone"
-                        placeholder="Your phone number"
+                        bg="light"
+                        placeholder="Phone number *"
                         feedbackText={errors?.phone?.message}
                         state={hasKey(errors, "phone") ? "error" : "success"}
+                        max={10}
                         showState={!!hasKey(errors, "phone")}
                         {...register("phone", {
                             required: "Phone is required",
                         })}
                     />
                 </div>
-                <div className="tw-mb-5">
-                    <label htmlFor="message" className="tw-sr-only">
-                        Message
+                <div className="tw-mb-7.5">
+                    <label htmlFor="email" className="tw-sr-only">
+                        Email *
                     </label>
-                    <Textarea
-                        id="message"
-                        placeholder="Your Message"
-                        feedbackText={errors?.message?.message}
-                        state={hasKey(errors, "message") ? "error" : "success"}
-                        showState={!!hasKey(errors, "message")}
-                        {...register("message", {
-                            required: "Message is required",
+                    <Input
+                        id="email"
+                        placeholder="Email *"
+                        bg="light"
+                        feedbackText={errors?.email?.message}
+                        state={hasKey(errors, "email") ? "error" : "success"}
+                        showState={!!hasKey(errors, "email")}
+                        {...register("email", {
+                            required: "Email is required",
+                            pattern: {
+                                value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
+                                message: "invalid email address",
+                            },
+                        })}
+                    />
+                </div>
+                <div className="tw-mb-3.8">
+                    <label htmlFor="address" className="tw-sr-only">
+                        10th Board
+                    </label>
+
+                    <Select
+                        id="board"
+                        placeholder="Board *"
+                        bg="light"
+                        options={BoardOptions}
+                        feedbackText={errors?.board?.message}
+                        state={hasKey(errors, "board") ? "error" : "success"}
+                        showState={!!hasKey(errors, "board")}
+                        {...register("board", {
+                            required: "board is required",
+                        })}
+                    />
+                </div>
+                <div className="tw-mb-3.8">
+                    <label htmlFor="qualification" className="tw-sr-only">
+                        Qualification
+                    </label>
+                    <Input
+                        id="qualification"
+                        bg="light"
+                        placeholder="Qualification: Graduation , B.Ed,"
+                        feedbackText={errors?.qualification?.message}
+                        state={
+                            hasKey(errors, "qualification")
+                                ? "error"
+                                : "success"
+                        }
+                        max={10}
+                        showState={!!hasKey(errors, "qualification")}
+                        {...register("qualification", {
+                            required: "Qualification is required",
+                        })}
+                    />
+                </div>
+                <div className="tw-mb-7.5">
+                    <label htmlFor="address" className="tw-sr-only">
+                        Address
+                    </label>
+                    <Input
+                        id="address"
+                        placeholder="Address "
+                        bg="light"
+                        feedbackText={errors?.address?.message}
+                        state={hasKey(errors, "address") ? "error" : "success"}
+                        showState={!!hasKey(errors, "address")}
+                        {...register("address", {
+                            required: "Address is required",
                         })}
                     />
                 </div>
 
                 <div className="tw-text-center">
                     <Button type="submit">Get the learning program</Button>
-                    {message && <Feedback state="success">{message}</Feedback>}
                 </div>
             </form>
         </div>

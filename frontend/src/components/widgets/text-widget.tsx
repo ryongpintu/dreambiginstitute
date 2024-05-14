@@ -17,11 +17,9 @@ const TextWidget = ({ className, mode }: TProps) => {
                     mode === "dark" && "tw-text-gray-400"
                 )}
             >
+                <p className="tw-mb-[11px]">Saraiya Stand</p>
                 <p className="tw-mb-[11px]">
-                    382 NE 191st St # 87394 Miami, FL 33179-3899
-                </p>
-                <p className="tw-mb-[11px]">
-                    +1 (305) 547-9909 (9am - 5pm EST, Monday - Friday){" "}
+                    +91 92 29 854 855 (9am - 7pm , Monday - Friday){" "}
                 </p>
                 <p className="tw-mb-[11px]">
                     <a
@@ -31,7 +29,7 @@ const TextWidget = ({ className, mode }: TProps) => {
                             mode === "dark" && "tw-text-gray-400"
                         )}
                     >
-                        info@example.com{" "}
+                        dreambiginstitute.info@gmail.com{" "}
                     </a>
                 </p>
             </div>

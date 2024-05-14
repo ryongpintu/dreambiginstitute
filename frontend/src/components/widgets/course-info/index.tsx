@@ -106,38 +106,34 @@ const CourseInfo = ({
                 </div>
 
                 {enrolledCourse ? (
-                    <Button
-                        fullwidth
-                        className="tw-mb-4"
-                        onClick={continueHandler}
-                    >
-                        Continue
-                    </Button>
+                    <>
+                        <Button
+                            fullwidth
+                            className="tw-mb-4"
+                            onClick={continueHandler}
+                        >
+                            Continue
+                        </Button>
+                        <Button
+                            fullwidth
+                            className="tw-mb-4"
+                            onClick={enrollHandler}
+                        >
+                            Continue
+                        </Button>
+                    </>
                 ) : (
                     <>
-                        {price !== 0 ? (
-                            <Button
-                                fullwidth
-                                className="tw-mb-4"
-                                onClick={() => setShow(true)}
-                            >
-                                Enroll Now
-                            </Button>
-                        ) : (
-                            <Button
-                                fullwidth
-                                className="tw-mb-4"
-                                onClick={enrollHandler}
-                            >
-                                Start Now
-                            </Button>
-                        )}
+                        <Button
+                            fullwidth
+                            className="tw-mb-4"
+                            onClick={() => setShow(true)}
+                        >
+                            Enroll Now
+                        </Button>
                     </>
                 )}
 
-                <Button fullwidth onClick={() => setShow(true)}>
-                    Buy Membership
-                </Button>
                 <div className="tw-mt-5 tw-text-center">
                     <SocialShare />
                 </div>

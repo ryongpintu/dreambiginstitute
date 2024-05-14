@@ -3,12 +3,13 @@ import { useRouter } from "next/router";
 import type { AppProps } from "next/app";
 import SEO from "@components/seo/deafult-seo";
 import FallbackLayout from "@layout/fallback";
-
+import { ToastContainer } from "react-toastify";
 import "@assets/css/font-awesome.min.css";
 import "@assets/css/font-linea.css";
 import "@assets/css/fonts.css";
 import "@assets/css/tailwind.css";
 import "@assets/css/swiper.css";
+import "react-toastify/dist/ReactToastify.css";
 
 import { UIProvider } from "../contexts/ui-context";
 import { UserProvider } from "../contexts/user-context";
@@ -42,6 +43,7 @@ const MyApp = ({ Component, pageProps }: CustomAppProps) => {
                 <Layout {...layoutProps}>
                     <SEO />
                     <Component {...pageProps} />
+                    <ToastContainer />
                 </Layout>
             </UserProvider>
         </UIProvider>

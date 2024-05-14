@@ -5,25 +5,25 @@
             "section": "hero-area",
             "headings": [
                 {
-                    "id":1,
-                    "content":"Software training for your future"
+                    "id": 1,
+                    "content": "Software training for your future"
                 }
             ],
             "texts": [
                 {
-                    "id":1,
-                    "content":"Learning is a life-long journey that in fact we never find the terminate stop. Stop searching, enjoy the process."
+                    "id": 1,
+                    "content": "Learning is a life-long journey that in fact we never find the terminate stop. Stop searching, enjoy the process."
                 }
             ],
-           
+
             "motto": {
                 "text": "Have questions?",
                 "path": "/contact-us",
                 "pathText": "Get Free Form"
-            },  
+            },
             "images": [
                 {
-                    "id":1,
+                    "id": 1,
                     "src": "/images/contact/contact.jpg"
                 }
             ]
@@ -85,14 +85,14 @@
             "section": "course-area",
             "section_title": {
                 "title": "Our Courses",
-                "subtitle":"Stimulated to learn?"
+                "subtitle": "Stimulated to learn?"
             }
         },
         {
             "section": "service-area",
             "section_title": {
                 "title": "Access to <span>Smart Library</span> For Students.",
-                "subtitle":"Institute Provides"
+                "subtitle": "Institute Provides"
             },
             "items": [
                 {
@@ -104,8 +104,8 @@
                     ],
                     "title": "24/7 Internet Facility",
                     "description": "Learners are given the access to computer with 24 hours internet facility",
-                    "path": "/start-here",
-                    "pathText": "Start here"
+                    "path": "/contact-us",
+                    "pathText": "Know More"
                 },
                 {
                     "id": 2,
@@ -116,8 +116,8 @@
                     ],
                     "title": "Books for students",
                     "description": "Lots books related to syllabus and also from outside world like biography, business books",
-                    "path": "/start-here",
-                    "pathText": "Get Free Quote"
+                    "path": "/contact-us",
+                    "pathText": "Book Your Slot"
                 },
                 {
                     "id": 3,
@@ -126,10 +126,10 @@
                             "src": "/images/learner/h2-learner-02.png"
                         }
                     ],
-                    "title": "Career Guidance from experience",
+                    "title": "Career Guidance",
                     "description": "Our Experience Teachers are always available for guidance",
-                    "path": "/start-here",
-                    "pathText": "Start here"
+                    "path": "/contact-us",
+                    "pathText": "Contact Us"
                 }
             ]
         },
@@ -158,45 +158,21 @@
         {
             "section": "testimonial-area",
             "section_title": {
-                "title": "Our <span> top learners'</span> verbatim",
-                "subtitle":"great words about maxcoach"
+                "title": "Our <span> top Supporters'</span> verbatim",
+                "subtitle": "great words about Dream Big Institute"
             },
             "items": [
                 {
                     "id": 1,
-                    "name": "Florence Themes",
-                    "designation": "Multimedia Admin",
+                    "name": "Manjeet Mehta",
+                    "designation": "CEO & Co-Founder Pesofts",
                     "title": "High level of efficiency and scientific teaching methods",
                     "description": "I am happy with their arrangement of lessons and subjects. They reflect a scientific investigation into effective methods to adopt for learners.",
                     "images": [
                         {
-                            "src": "/images/testimonial/70/testimonial-1.jpg"
+                            "src": "/images/testimonial/70/manjeet.jpg"
                         }
                     ]
-                },
-                {
-                    "id": 2,
-                    "name": "Madley Pondor",
-                    "designation": "IT Specialist",
-                    "title": "Professional team of specialists and passionate mentors at reach",
-                    "description": "I need to get a certification for English proficiency and MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.",
-                    "images": [
-                        {
-                            "src": "/images/testimonial/70/testimonial-2.jpg"
-                        }
-                    ]
-                },
-                {
-                    "id": 3,
-                    "name": "Luvic Dubble",
-                    "designation": "Private Tutor",
-                    "title": "Highly recommend their courses and teaching system",
-                    "description": "I am happy with their arrangement of lessons and subjects. They reflect a scientific investigation into effective methods to adopt for learners.",
-                    "images": [
-                        {
-                            "src": "/images/testimonial/70/testimonial-3.jpg"
-                        }
-                    ] 
                 }
             ]
         },
@@ -204,7 +180,7 @@
             "section": "cta-area",
             "section_title": {
                 "title": "You can be your own guiding star with our help!",
-                "subtitle":"Start today for getting <span>Online Certification</span>"
+                "subtitle": "Start today for getting <span>Software Training</span>"
             },
             "buttons": [
                 {
@@ -247,14 +223,14 @@
             "section": "blog-area",
             "section_title": {
                 "title": "Most Viewed <span> Best Blogs</span>",
-                "subtitle":"Enjoyable insights"
+                "subtitle": "Enjoyable insights"
             }
         },
         {
             "section": "newsletter-area",
             "section_title": {
                 "title": "Sign up for our <span>Newsletters</span>",
-                "description":"Enter your email address to register to our newsletter subscription <br class='tw-hidden md:tw-block'>delivered on a regular basis!"
+                "description": "Enter your email address to register to our newsletter subscription <br class='tw-hidden md:tw-block'>delivered on a regular basis!"
             }
         }
     ]

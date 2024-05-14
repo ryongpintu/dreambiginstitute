@@ -2,10 +2,13 @@ import { forwardRef, useState } from "react";
 import clsx from "clsx";
 import { useForm, SubmitHandler } from "react-hook-form";
 import Input from "@ui/form-elements/input";
-import Textarea from "@ui/form-elements/textarea";
-import Feedback from "@ui/form-elements/feedback";
 import Button from "@ui/button";
 import { hasKey } from "@utils/methods";
+import Select from "@components/ui/form-elements/select";
+import { toast } from "react-toastify";
+
+import { client, USER_API_END_POINT } from "services/user";
+import { AxiosError } from "axios";
 
 type TProps = {
     className?: string;
@@ -14,23 +17,75 @@ type TProps = {
 interface IFormValues {
     name: string;
     email: string;
-    subject: string;
+    phone: string;
+    subjectChoice: string;
     message: string;
+    board: string;
+    presentClass: string;
 }
+
+const BoardOptions = [
+    { label: "Select Board", value: "" },
+    { label: "JAC", value: "JAC" },
+    { label: "CBSE", value: "CBSE" },
+];
+const ClassOptions = [
+    { label: "Select  Class", value: "" },
+    { value: "ten", label: "Ten(10)" },
+    { value: "nine", label: "Nine(9)" },
+    { value: "eight", label: "Eight(8)" },
+    { value: "eleven", label: "Inter of Arts" },
+];
+
+const SubjOptions = [
+    { label: "Select Course", value: "" },
+    { value: "MS", label: "Math + Science" },
+    {
+        value: "Software,Spoken Eng",
+        label: "Software Training+ Spoken English",
+    },
+
+    {
+        value: "MS,Software,Spoken Eng",
+        label: "Both(Math+Science and Software T + Spoken Eng)",
+    },
+];
+const ArtsSubOptions = [
+    { label: "Select Course", value: "" },
+    { value: "Arts", label: "Arts" },
+    {
+        value: "Software,Spoken Eng",
+        label: "Software Training+ Spoken English",
+    },
+
+    {
+        value: "MS,Software,Spoken Eng",
+        label: "Both(Arts and Software T + Spoken Eng)",
+    },
+];
 
 const ContactForm = forwardRef<HTMLFormElement, TProps>(
     ({ className }, ref) => {
-        const [message, setMessage] = useState("");
+        const [classSelected, setClassSelected] = useState("");
+
         const {
             register,
             handleSubmit,
             formState: { errors },
+            reset,
         } = useForm<IFormValues>();
 
-        const onSubmit: SubmitHandler<IFormValues> = (data) => {
+        const onSubmit: SubmitHandler<IFormValues> = async (data) => {
             // eslint-disable-next-line no-console
-            console.log(data);
-            setMessage("Thank you for your message!");
+
+            try {
+                await client.post(USER_API_END_POINT, data);
+                toast.success("Thank you! Our Team will reach you ");
+                reset();
+            } catch (err: unknown) {
+                const knownError = err as AxiosError;
+                toast.error(knownError?.response?.data as string);
+            }
         };
 
         return (
@@ -42,7 +97,7 @@ const ContactForm = forwardRef<HTMLFormElement, TProps>(
                 <div className="tw-grid tw-grid-cols-1 tw-gap-5 tw-mb-5 md:tw-grid-cols-2 md:tw-gap-7.5 md:tw-mb-7.5">
                     <div>
                         <label htmlFor="name" className="tw-sr-only">
-                            Name
+                            Full Name
                         </label>
                         <Input
                             id="name"
@@ -57,67 +112,96 @@ const ContactForm = forwardRef<HTMLFormElement, TProps>(
                         />
                     </div>
                     <div>
-                        <label htmlFor="email" className="tw-sr-only">
-                            email
+                        <label htmlFor="phone" className="tw-sr-only">
+                            Phone
                         </label>
                         <Input
-                            type="email"
-                            id="email"
-                            placeholder="Your Email *"
+                            id="phone"
+                            type="tel"
                             bg="light"
-                            feedbackText={errors?.email?.message}
+                            placeholder="Your phone number"
+                            feedbackText={errors?.phone?.message}
                             state={
-                                hasKey(errors, "email") ? "error" : "success"
+                                hasKey(errors, "phone") ? "error" : "success"
                             }
-                            showState={!!hasKey(errors, "email")}
-                            {...register("email", {
-                                required: "Email is required",
-                                pattern: {
-                                    value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
-                                    message: "invalid email address",
-                                },
+                            showState={!!hasKey(errors, "phone")}
+                            {...register("phone", {
+                                required: "Phone is required",
                             })}
                         />
                     </div>
                 </div>
-
                 <div className="tw-mb-5 md:tw-mb-7.5">
-                    <label htmlFor="subject" className="tw-sr-only">
-                        Subject
+                    <label htmlFor="board" className="tw-sr-only">
+                        Board
                     </label>
 
-                    <Input
-                        id="subject"
-                        placeholder="Subject *"
+                    <Select
+                        id="board"
+                        placeholder="Board *"
                         bg="light"
-                        feedbackText={errors?.subject?.message}
-                        state={hasKey(errors, "subject") ? "error" : "success"}
-                        showState={!!hasKey(errors, "subject")}
-                        {...register("subject", {
-                            required: "Subject is required",
+                        options={BoardOptions}
+                        feedbackText={errors?.board?.message}
+                        state={hasKey(errors, "board") ? "error" : "success"}
+                        showState={!!hasKey(errors, "board")}
+                        {...register("board", {
+                            required: "board is required",
                         })}
                     />
                 </div>
                 <div className="tw-mb-5 md:tw-mb-7.5">
-                    <label htmlFor="message" className="tw-sr-only">
-                        comment
+                    <label htmlFor="presentClass" className="tw-sr-only">
+                        Present Class
                     </label>
-                    <Textarea
-                        id="message"
-                        placeholder="Message"
+
+                    <Select
+                        id="presentClass"
+                        placeholder="Class *"
                         bg="light"
-                        feedbackText={errors?.message?.message}
-                        state={hasKey(errors, "message") ? "error" : "success"}
-                        showState={!!hasKey(errors, "message")}
-                        {...register("message", {
-                            required: "Message is required",
+                        options={ClassOptions}
+                        feedbackText={errors?.presentClass?.message}
+                        state={
+                            hasKey(errors, "presentClass") ? "error" : "success"
+                        }
+                        showState={!!hasKey(errors, "presentClass")}
+                        {...register("presentClass", {
+                            required: "Class is required",
+                        })}
+                        onChange={({ target }) =>
+                            setClassSelected(target.value)
+                        }
+                    />
+                </div>
+
+                <div className="tw-mb-5 md:tw-mb-7.5">
+                    <label htmlFor="subjectChoice" className="tw-sr-only">
+                        Subject
+                    </label>
+
+                    <Select
+                        id="subjectChoice"
+                        placeholder="Subject *"
+                        options={
+                            classSelected !== "eleven"
+                                ? SubjOptions
+                                : ArtsSubOptions
+                        }
+                        bg="light"
+                        feedbackText={errors?.subjectChoice?.message}
+                        state={
+                            hasKey(errors, "subjectChoice")
+                                ? "error"
+                                : "success"
+                        }
+                        showState={!!hasKey(errors, "subjectChoice")}
+                        {...register("subjectChoice", {
+                            required: "subject is required",
                         })}
                     />
                 </div>
                 <Button type="submit" className="tw-w-[180px]">
                     Submit
                 </Button>
-                {message && <Feedback state="success">{message}</Feedback>}
             </form>
         );
     }

@@ -6,7 +6,6 @@ import Logo from "@components/logo";
 import SearchForm from "@components/forms/search-form";
 import MainMenu from "@components/menu/main-menu";
 import BurgerButton from "@ui/burger-button";
-import Anchor from "@ui/anchor";
 import menu from "@data/menu";
 import { useSticky } from "@hooks";
 
@@ -64,13 +63,6 @@ const Header = ({ shadow, fluid }: TProps) => {
                             className="tw-max-w-[120px] sm:tw-max-w-[158px]"
                         />
                         <div className="tw-flex tw-justify-end tw-items-center">
-                            <Anchor
-                                path="/profile"
-                                className="tw-inline-block tw-text-dark-50 tw-px-2.5 tw-py-1.5"
-                                aria-label="Profile"
-                            >
-                                <i className="far fa-user-circle tw-text-lg" />
-                            </Anchor>
                             <div className="tw-hidden md:tw-block md:tw-max-w-[250px] md:tw-pl-2.5">
                                 <SearchForm />
                             </div>

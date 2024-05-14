@@ -1,14 +1,15 @@
-import Anchor from "@ui/anchor";
 import { Modal, ModalHeader, ModalClose, ModalBody } from "@ui/modal";
-import { useUser } from "@contexts/user-context";
+import ContactForm from "@components/forms/contact-form";
+import { scrollUpVariants } from "@utils/variants";
+import { motion } from "framer-motion";
 
+const AnimatedContactForm = motion(ContactForm);
 type TProps = {
     show: boolean;
     onClose: () => void;
 };
 
 const EnrollModal = ({ show, onClose }: TProps) => {
-    const { isLoggedIn } = useUser();
     return (
         <Modal show={show} onClose={onClose}>
             <ModalHeader>
@@ -16,28 +17,13 @@ const EnrollModal = ({ show, onClose }: TProps) => {
                 <ModalClose onClose={onClose}>x</ModalClose>
             </ModalHeader>
             <ModalBody className="tw-p-14 tw-text-center">
-                <i className="far fa-lock tw-text-8xl tw-text-primary tw-mb-7.5" />
-                <h5>You have enrolled in this course.</h5>
-                {!isLoggedIn && (
-                    <p>
-                        Please,{" "}
-                        <Anchor
-                            className="tw-text-primary"
-                            path="/login-register"
-                        >
-                            log in
-                        </Anchor>{" "}
-                        to get access to free lesson
-                    </p>
-                )}
-                {isLoggedIn && <p>Now, you can access the free lesson</p>}
-
-                <p>
-                    Thanks for being with us{" "}
-                    <Anchor className="tw-text-primary" path="/courses/lists">
-                        Browse More Course
-                    </Anchor>
-                </p>
+                <AnimatedContactForm
+                    className="tw-max-w-[770px] tw-mx-auto"
+                    initial="offscreen"
+                    whileInView="onscreen"
+                    viewport={{ once: true, amount: 0.4 }}
+                    variants={scrollUpVariants}
+                />
             </ModalBody>
         </Modal>
     );
