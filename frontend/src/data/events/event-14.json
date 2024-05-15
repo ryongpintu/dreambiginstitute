@@ -1,6 +1,6 @@
 {
     "id": 13,
-    "title": "Creating Futures Through Technology Conference – MaxCoach Tech Center",
+    "title": "Creating Futures Through Technology Conference – Dream Big Institute Tech Center",
     "thumbnail": {
         "src": "/images/event/14.jpg"
     },
@@ -16,7 +16,7 @@
         "latitude": 40.758062,
         "longitude": -73.9699129
     },
-    "price": 39.00,
+    "price": 39.0,
     "currency": "$",
     "total_slot": 350,
     "speakers": [
@@ -73,7 +73,7 @@
         {
             "id": 1,
             "type": "text",
-            "content": "The&nbsp;<strong>Creating Futures Through Technology Conference – MaxCoach Tech Center</strong>&nbsp;is sponsored jointly by the Mississippi Community College Board and the Mississippi Universities Board with a goal of promoting collaboration as well as transforming teaching and learning on college campuses.&nbsp;&nbsp;"
+            "content": "The&nbsp;<strong>Creating Futures Through Technology Conference – Dream Big Institute Tech Center</strong>&nbsp;is sponsored jointly by the Mississippi Community College Board and the Mississippi Universities Board with a goal of promoting collaboration as well as transforming teaching and learning on college campuses.&nbsp;&nbsp;"
         },
         {
             "id": 2,

@@ -6,20 +6,22 @@
     },
     "published_at": "2020-12-01T00:00:00.000Z",
     "category": "Technology",
-    "price": 50.00,
+    "price": 50.0,
     "currency": "$",
-    "language": "english",
+    "language": "English/Hindi",
     "instructor": 1,
     "duration": "48 hours",
     "total_lectures": 24,
     "total_students": 69,
-    "membership": [
-        "silver",
-        "gold",
-        "diamond"
-    ],
+    "membership": ["silver", "gold", "diamond"],
     "excerpt": "",
-    "curriculum": ["chapter-01", "chapter-02", "chapter-03", "chapter-04", "chapter-05"],
+    "curriculum": [
+        "chapter-01",
+        "chapter-02",
+        "chapter-03",
+        "chapter-04",
+        "chapter-05"
+    ],
     "reviews": {
         "average": 4.5,
         "count": 2,

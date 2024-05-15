@@ -5,26 +5,26 @@
             "section": "hero-area",
             "headings": [
                 {
-                    "id":1,
-                    "content":"Commence Business"
+                    "id": 1,
+                    "content": "Commence Business"
                 },
                 {
-                    "id":2,
-                    "content":"Distant Mentoring Program"
+                    "id": 2,
+                    "content": "Distant Mentoring Program"
                 }
             ],
             "buttons": [
                 {
-                    "id":1,
+                    "id": 1,
                     "path": "/start-here",
-                    "content":"Download free guidebook ",
+                    "content": "Download free guidebook ",
                     "icon": "fas fa-arrow-right",
                     "color": "light"
                 }
             ],
             "images": [
                 {
-                    "id":1,
+                    "id": 1,
                     "src": "/images/intro/intro3/bg-1.jpg"
                 }
             ]
@@ -32,8 +32,8 @@
         {
             "section": "about-area",
             "section_title": {
-                "title": "Learn about our <span>Work Culture</span> at MaxCoach",
-                "subtitle": "Get to know about <strong>MaxCoach</strong>",
+                "title": "Learn about our <span>Work Culture</span> at Dream Big Institute",
+                "subtitle": "Get to know about <strong>Dream Big Institute</strong>",
                 "description": "Spend some time to visit our website or head office and discover our current courses, enrollment procedure, and registration deadline. We're opening new classes every beginning of each month."
             },
             "motto": {
@@ -51,7 +51,7 @@
                     "src": "/images/about/about01/about2.jpg"
                 }
             ]
-        }, 
+        },
         {
             "section": "funfact-area",
             "items": [
@@ -73,7 +73,7 @@
                     "counter": 100
                 }
             ]
-        }, 
+        },
         {
             "section": "video-area",
             "section_title": {
@@ -100,7 +100,7 @@
             "section": "course-area",
             "section_title": {
                 "title": "Latest Online <span>Courses</span>",
-                "subtitle":"Join MaxCoach at best"
+                "subtitle": "Join Dream Big Institute at best"
             },
             "motto": {
                 "text": "Get the most dedicated consultation for your life-changing course. Earn a certification for your effort and passion",
@@ -138,7 +138,7 @@
                     "name": "Madley Pondor",
                     "designation": "IT Specialist",
                     "title": "Professional team of specialists and passionate mentors at reach",
-                    "description": "I need to get a certification for English proficiency and MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.",
+                    "description": "I need to get a certification for English proficiency and Dream Big Institute is my best choice. Their tutors are smart and professional when dealing with students.",
                     "images": [
                         {
                             "src": "/images/testimonial/70/testimonial-2.jpg"
@@ -155,16 +155,16 @@
                         {
                             "src": "/images/testimonial/70/testimonial-3.jpg"
                         }
-                    ] 
+                    ]
                 }
             ]
-        }, 
+        },
         {
             "section": "team-area",
             "section_title": {
                 "title": "We’re Here To <span>Transform</span> You!",
-                "subtitle": "Everything in <strong>MaxCoach</strong>",
-                "description": "As learners, people can enjoy great companionship from MaxCoach mentors and educators. We can help you develop and grow at your best. "
+                "subtitle": "Everything in <strong>Dream Big Institute</strong>",
+                "description": "As learners, people can enjoy great companionship from Dream Big Institute mentors and educators. We can help you develop and grow at your best. "
             },
             "buttons": [
                 {
@@ -178,14 +178,14 @@
             "section": "blog-area",
             "section_title": {
                 "title": "Latest From <span>Our Blogs</span>",
-                "subtitle":"Read for more joyment"
+                "subtitle": "Read for more joyment"
             }
         },
         {
             "section": "newsletter-area",
             "section_title": {
                 "title": "Sign up for our <span>Newsletters</span>",
-                "description":"Enter your email address to register to our newsletter subscription <br class='tw-hidden md:tw-block'>delivered on a regular basis!"
+                "description": "Enter your email address to register to our newsletter subscription <br class='tw-hidden md:tw-block'>delivered on a regular basis!"
             }
         }
     ]

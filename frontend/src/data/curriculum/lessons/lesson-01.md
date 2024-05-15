@@ -1,7 +1,7 @@
 ---
 title: "Lesson 01: Simple, attainable goals"
 type: "lesson"
-access: "free"
+access: "paid"
 video: "https://www.youtube.com/embed/m-X1ExlQ9uE?feature=oembed"
 duration: "30 Min"
 ---

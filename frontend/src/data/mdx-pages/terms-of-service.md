@@ -1,14 +1,8 @@
-![alt text](/images/purchase-guide/terms-of-service.jpg)
-
-### Our website
-
-Our website address is: https://domain.com
-
 ### Definitions of basic terms, rights and restriction:
 
 #### Basic terms
 
-These Terms of Service for MaxCoach Online Course Educational Center constitute a binding contract between you (“Member” or “Customer” or “You”) and ThemeMove company, a corporation registered in California, USA (“Company”), regarding the terms under which the Company will provide You with access to online courses (or parts thereof) purchased by You.
+These Terms of Service for Dream Big Institute Online Course Educational Center constitute a binding contract between you (“Member” or “Customer” or “You”) and ThemeMove company, a corporation registered in California, USA (“Company”), regarding the terms under which the Company will provide You with access to online courses (or parts thereof) purchased by You.
 
 #### Rights & restrictions
 

@@ -1,7 +1,7 @@
 ---
 title: "Lesson 04: Simple, attainable goals"
 type: "lesson"
-access: "free"
+access: "paid"
 duration: "35 Min"
 ---
 

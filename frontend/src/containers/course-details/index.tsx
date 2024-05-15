@@ -1,10 +1,10 @@
+import { useState } from "react";
 import { TabContainer, TabNav, TabPane, TabList, TabContent } from "@ui/tab";
 import { ICourse, ICurriculum, IInstructor } from "@utils/types";
-import CourseInfo from "@widgets/course-info";
+import Button from "@components/ui/button";
+import EnrollModal from "@components/modals/enroll-modal";
 import OverviewPanel from "./overview-panel";
 import CurriculamPanel from "./curriculam-panel";
-import InstructorPanel from "./instructor-panel";
-import ReviewPanel from "./review-panel";
 
 type TProps = {
     data: {
@@ -14,9 +14,8 @@ type TProps = {
     };
 };
 
-const CourseDetails = ({
-    data: { course, curriculum, instructor },
-}: TProps) => {
+const CourseDetails = ({ data: { course, curriculum } }: TProps) => {
+    const [show, setShow] = useState(false);
     return (
         <section className="course-details">
             <div className="tw-container tw-grid lg:tw-grid-cols-3 tw-gap-12">
@@ -45,29 +44,26 @@ const CourseDetails = ({
                                 )}
                             </TabPane>
                             <TabPane>
-                                <InstructorPanel {...instructor} />
+                                <h1>We will available soon</h1>
                             </TabPane>
                             <TabPane>
-                                {course?.reviews && (
-                                    <ReviewPanel {...course.reviews} />
-                                )}
+                                <h1>No review yet !</h1>
                             </TabPane>
                         </TabContent>
                     </TabContainer>
                 </div>
                 <div className="lg:tw-col-[3/-1]">
                     <div className="tw-sticky tw-top-24">
-                        <CourseInfo
-                            lessonLink={curriculum[0].lessons[0].path}
-                            slug={course.slug}
-                            price={course.price}
-                            currency={course.currency}
-                            instructor={instructor.name}
-                            duration={course.duration}
-                            lectures={course.total_lectures}
-                            students={course.total_students}
-                            language={course.language}
-                            published_at={course.published_at}
+                        <Button
+                            fullwidth
+                            className="tw-mb-4"
+                            onClick={() => setShow(true)}
+                        >
+                            Enroll Now
+                        </Button>
+                        <EnrollModal
+                            show={show}
+                            onClose={() => setShow(false)}
                         />
                     </div>
                 </div>

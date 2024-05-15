@@ -1,6 +1,6 @@
 {
     "id": 13,
-    "title": "2nd Annual Educating Mindfully Conference at MaxCoach office",
+    "title": "2nd Annual Educating Mindfully Conference at Dream Big Institute office",
     "thumbnail": {
         "src": "/images/event/13.jpg"
     },
@@ -16,7 +16,7 @@
         "latitude": 40.758062,
         "longitude": -73.9699129
     },
-    "price": 39.00,
+    "price": 39.0,
     "currency": "$",
     "total_slot": 350,
     "speakers": [

@@ -14,7 +14,7 @@
                     "texts": [
                         {
                             "id": 1,
-                            "content": "Saraiya Bus stand , above Honda Showroom "
+                            "content": "Saraiya Bus stand , Near Pani Tanki Toward Padma"
                         }
                     ]
                 },
@@ -25,11 +25,11 @@
                     "texts": [
                         {
                             "id": 1,
-                            "content": "Mobile: <a href='tel:(+91)-946596-2944'><strong>(+91)-946596-2944</strong></a>"
+                            "content": "Mobile: <a href='tel:(+91)-9229-854-855'><strong>(+91)-9229-854-855</strong></a>"
                         },
                         {
                             "id": 3,
-                            "content": "Mail: <a href='mailto:ranapintukumar01@gmail.com'>ranapintukumar01@gmail.com</a>"
+                            "content": "Mail: <a href='mailto:dreambiginstitute.info@gmail.com'>dreambiginstitute.info@gmail.com</a>"
                         }
                     ]
                 },
@@ -40,11 +40,11 @@
                     "texts": [
                         {
                             "id": 1,
-                            "content": "Monday – Friday : 09:00 – 08:00"
+                            "content": "Monday – Friday : 06:00 – 07:00"
                         },
                         {
                             "id": 2,
-                            "content": "Sunday & Saturday: 10:30 – 8:00"
+                            "content": "Sunday & Saturday: 08:30 – 7:00"
                         }
                     ]
                 }
@@ -55,8 +55,8 @@
                 }
             ],
             "location": {
-                "latitude": 24.2017259,
-                "longitude": 85.3386658
+                "latitude": 24.201479,
+                "longitude": 85.344787
             }
         },
         {

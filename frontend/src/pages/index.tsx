@@ -88,7 +88,7 @@ export const getStaticProps: GetStaticProps = () => {
     const { blogs: recentPosts } = getAllBlogs(["title"], 0, 5);
     const { blogs: recentPostsWithImage } = getAllBlogs(
         ["title", "image", "category", "views"],
-        5,
+        0,
         2
     );
     return {

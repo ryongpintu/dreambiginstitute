@@ -13,7 +13,7 @@ type TProps = TSection & {
 };
 const ContactFormArea = ({ data: { section_title } }: TProps) => {
     return (
-        <Section className="contact-form-area">
+        <Section className="contact-form-area tw-pt-2 lg:tw-pt-1">
             <div className="tw-container">
                 {section_title && (
                     <motion.h2

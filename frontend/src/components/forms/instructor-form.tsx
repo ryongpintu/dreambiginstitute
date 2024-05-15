@@ -117,12 +117,12 @@ const InstructorForm = ({ className }: TProps) => {
                 </div>
                 <div className="tw-mb-3.8">
                     <label htmlFor="address" className="tw-sr-only">
-                        10th Board
+                        Class 10th Board
                     </label>
 
                     <Select
                         id="board"
-                        placeholder="Board *"
+                        placeholder="Class 10th Board *"
                         bg="light"
                         options={BoardOptions}
                         feedbackText={errors?.board?.message}
@@ -172,7 +172,7 @@ const InstructorForm = ({ className }: TProps) => {
                 </div>
 
                 <div className="tw-text-center">
-                    <Button type="submit">Get the learning program</Button>
+                    <Button type="submit">Submit</Button>
                 </div>
             </form>
         </div>

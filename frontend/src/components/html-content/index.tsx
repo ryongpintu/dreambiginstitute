@@ -77,13 +77,7 @@ const HTMLContent = ({ body, className }: TProps) => {
                     !Array.isArray(content) &&
                     content.src
                 ) {
-                    return (
-                        <iframe
-                            key={id}
-                            title={content?.alt || "Iframe"}
-                            src={content.src}
-                        />
-                    );
+                    return null;
                 }
 
                 return null;

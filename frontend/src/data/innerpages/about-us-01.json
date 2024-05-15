@@ -19,8 +19,8 @@
         {
             "section": "about-area",
             "section_title": {
-                "title": "Learn about our <span>Work Culture</span> at MaxCoach",
-                "subtitle": "Get to know about <strong>MaxCoach</strong>",
+                "title": "Learn about our <span>Work Culture</span> at Dream Big Institute",
+                "subtitle": "Get to know about <strong>Dream Big Institute</strong>",
                 "description": "Spend some time to visit our website or head office and discover our current courses, enrollment procedure, and registration deadline. We're opening new classes every beginning of each month."
             },
             "motto": {
@@ -65,7 +65,7 @@
             "section": "testimonial-area",
             "section_title": {
                 "title": "Our <span> top learners'</span> verbatim",
-                "subtitle":"great words about maxcoach"
+                "subtitle": "great words about Dream Big Institute"
             },
             "items": [
                 {
@@ -85,7 +85,7 @@
                     "name": "Madley Pondor",
                     "designation": "IT Specialist",
                     "title": "Professional team of specialists and passionate mentors at reach",
-                    "description": "I need to get a certification for English proficiency and MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.",
+                    "description": "I need to get a certification for English proficiency and Dream Big Institute is my best choice. Their tutors are smart and professional when dealing with students.",
                     "images": [
                         {
                             "src": "/images/testimonial/70/testimonial-2.jpg"
@@ -102,7 +102,7 @@
                         {
                             "src": "/images/testimonial/70/testimonial-3.jpg"
                         }
-                    ] 
+                    ]
                 }
             ]
         },
@@ -110,7 +110,7 @@
             "section": "cta-area",
             "section_title": {
                 "title": "You can be your own guiding star with our help!",
-                "subtitle":"Start today for getting <span>Online Certification</span>"
+                "subtitle": "Start today for getting <span>Online Certification</span>"
             },
             "buttons": [
                 {
@@ -124,7 +124,7 @@
             "section": "team-area",
             "section_title": {
                 "title": "Whose <span> Inspirations</span> You Love",
-                "subtitle":"The guys behind the curtains"
+                "subtitle": "The guys behind the curtains"
             },
             "items": [
                 {
@@ -230,7 +230,7 @@
                     "id": 4,
                     "name": "Smiley Fords",
                     "designation": "Linguistic Mentor",
-                    "role": "employee",                    
+                    "role": "employee",
                     "images": [
                         {
                             "src": "/images/team/270/team-member-04.jpg"
@@ -364,7 +364,7 @@
             "section": "newsletter-area",
             "section_title": {
                 "title": "Sign up for our <span>Newsletters</span>",
-                "description":"Enter your email address to register to our newsletter subscription <br class='tw-hidden md:tw-block'>delivered on a regular basis!"
+                "description": "Enter your email address to register to our newsletter subscription <br class='tw-hidden md:tw-block'>delivered on a regular basis!"
             }
         }
     ]

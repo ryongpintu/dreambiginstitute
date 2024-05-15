@@ -37,8 +37,9 @@ const ContactMe: PageProps = ({ data }) => {
                 currentPage="Contact Us"
                 showTitle={false}
             />
-            <ContactInfo data={content?.["contact-info"]} />
+
             <ContactForm data={content?.["contact-form"]} />
+            <ContactInfo data={content?.["contact-info"]} />
         </>
     );
 };

@@ -1,13 +1,13 @@
 ---
 title: How to Stay True to Your Personal Brand
-postedAt: "2022-10-09T20:30:00.000Z"
+postedAt: "2024-05-20T20:30:00.000Z"
 author: 1
 image: { src: "/images/blog/motivation-blog-04.jpg" }
 category: motivation
 tags:
     - motivation
 is_featured: false
-views: 878
+views: 0
 ---
 
 Visualize the logo of a brand you love. Now, think about three words you associate with that brand.
@@ -33,5 +33,3 @@ Your brand should be timeless, but the way you translate it will change over tim
 Remain open to being taken in a fresh direction while also staying true to your principles and area of impact.
 
 Now, visualize your own brand tattoo. What do you see?
-
-Source: [success.com](https://success.com)

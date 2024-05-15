@@ -5,8 +5,8 @@
             "section": "hero-area",
             "headings": [
                 {
-                    "id":1,
-                    "content":"Complete Your Dreams in Java Programming "
+                    "id": 1,
+                    "content": "Complete Your Dreams in Java Programming "
                 }
             ],
             "texts": [
@@ -17,15 +17,15 @@
             ],
             "buttons": [
                 {
-                    "id":1,
+                    "id": 1,
                     "path": "/start-here",
-                    "content":"Download free E-book",
+                    "content": "Download free E-book",
                     "icon": "far fa-download"
                 }
             ],
             "images": [
                 {
-                    "id":1,
+                    "id": 1,
                     "src": "/images/intro/intro5/home-5-hero-image.png"
                 }
             ]
@@ -91,23 +91,23 @@
             "section": "faq-area",
             "section_title": {
                 "title": "Construct A <span>Stunning</span> Career Perspective",
-                "subtitle": "Everything <strong>MaxCoach</strong>"
+                "subtitle": "Everything <strong>Dream Big Institute</strong>"
             },
             "items": [
                 {
                     "id": 1,
                     "title": "Multiple Platforms Supported for Teaching & Studying",
-                    "description": "MaxCoach supports the act of teaching and learning on multiple platforms like online or offline via material downloads. We know things aren’t supposed to be devoured in a short time, you can always access our knowledge base from any device."
+                    "description": "Dream Big Institute supports the act of teaching and learning on multiple platforms like online or offline via material downloads. We know things aren’t supposed to be devoured in a short time, you can always access our knowledge base from any device."
                 },
                 {
                     "id": 2,
                     "title": "Multiple Course Participation at the Same Time",
-                    "description": "Study for a number of courses at the same time is possible as long as you can afford the fee and time for completing them in the proper time. Learn at your own desired timeline and timetable. Maximum up to 5 course at a time for a learner at MaxCoach."
+                    "description": "Study for a number of courses at the same time is possible as long as you can afford the fee and time for completing them in the proper time. Learn at your own desired timeline and timetable. Maximum up to 5 course at a time for a learner at Dream Big Institute."
                 },
                 {
                     "id": 3,
                     "title": "Track Study Progress & Deliver Prompt Feedback",
-                    "description": "It’s not just a normal thing to be able to build such a solid online educational system like MaxCoach where your progress is easily tracked and feedback is properly delivered. We promise to keep improving our system for better stability and flexibility."
+                    "description": "It’s not just a normal thing to be able to build such a solid online educational system like Dream Big Institute where your progress is easily tracked and feedback is properly delivered. We promise to keep improving our system for better stability and flexibility."
                 }
             ],
             "images": [
@@ -142,12 +142,12 @@
                     "counter": 100
                 }
             ]
-        }, 
+        },
         {
             "section": "course-area",
             "section_title": {
                 "title": "Latest Featured <span>Courses</span>",
-                "subtitle":"Choose where you'd like to begin"
+                "subtitle": "Choose where you'd like to begin"
             }
         },
         {
@@ -164,9 +164,9 @@
             ],
             "buttons": [
                 {
-                    "id":1,
+                    "id": 1,
                     "path": "/start-here",
-                    "content":"Get started for free"
+                    "content": "Get started for free"
                 }
             ],
             "images": [
@@ -184,9 +184,9 @@
             },
             "buttons": [
                 {
-                    "id":1,
+                    "id": 1,
                     "path": "/start-here",
-                    "content":"Download Our App"
+                    "content": "Download Our App"
                 }
             ],
             "images": [
@@ -211,7 +211,7 @@
             "section": "testimonial-area",
             "section_title": {
                 "title": "Our <span> top learners'</span> verbatim",
-                "subtitle":"great words about maxcoach"
+                "subtitle": "great words about Dream Big Institute"
             },
             "items": [
                 {
@@ -231,7 +231,7 @@
                     "name": "Madley Pondor",
                     "designation": "IT Specialist",
                     "title": "Professional team of specialists and passionate mentors at reach",
-                    "description": "I need to get a certification for English proficiency and MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.",
+                    "description": "I need to get a certification for English proficiency and Dream Big Institute is my best choice. Their tutors are smart and professional when dealing with students.",
                     "images": [
                         {
                             "src": "/images/testimonial/70/testimonial-2.jpg"
@@ -248,7 +248,7 @@
                         {
                             "src": "/images/testimonial/70/testimonial-3.jpg"
                         }
-                    ] 
+                    ]
                 }
             ]
         },
@@ -256,7 +256,7 @@
             "section": "cta-area",
             "section_title": {
                 "title": "You can be your own guiding star with our help!",
-                "subtitle":"Start today for getting <span>Online Certification</span>"
+                "subtitle": "Start today for getting <span>Online Certification</span>"
             },
             "buttons": [
                 {

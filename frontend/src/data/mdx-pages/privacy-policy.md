@@ -1,6 +1,4 @@
-![alt text](/images/purchase-guide/privacy-policy.jpg)
-
-This Privacy Policy is applicabled for any one involves with the registering and course engagement at MaxCoach Online Course Educational center.
+This Privacy Policy is applicable for any one involves with the registering and course engagement at Dream Big Institute Online Course Educational center.
 
 ### Availability of Website
 
@@ -29,4 +27,4 @@ The Company will use commercially reasonable efforts to enable the online course
 1.  These Terms of Service are construed and governed by the laws of the United States of America.
 2.  If any of the provisions, either in whole or in part, of the contract is or becomes invalid or unenforceable, this shall not serve to invalidate the remaining provisions thereof.
 
-**Effective Date: 01/01/2020**
+**Effective Date: 20/05/2024**

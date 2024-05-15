@@ -5,7 +5,7 @@
             "section": "service-area",
             "section_title": {
                 "title": "Online <span>Coaching Lessons</span> For Remote Learning.",
-                "subtitle":"Education for everyone"
+                "subtitle": "Education for everyone"
             },
             "items": [
                 {
@@ -58,7 +58,7 @@
             "section": "testimonial-area",
             "section_title": {
                 "title": "Learn the secrets to <span>Life Success</span>, <br class='tw-hidden md:tw-block'>these people have got the key.​",
-                "subtitle":"equip yourself with the power of education"
+                "subtitle": "equip yourself with the power of education"
             },
             "items": [
                 {
@@ -78,7 +78,7 @@
                     "name": "Florence Themes",
                     "designation": "Multimedia Admin",
                     "rating": 5,
-                    "description": "I'm a very strict person so I require everything to be organized and neat. Then, I'll be able to make things right and shine. MaxCoach guys just got me.",
+                    "description": "I'm a very strict person so I require everything to be organized and neat. Then, I'll be able to make things right and shine. Dream Big Institute guys just got me.",
                     "images": [
                         {
                             "src": "/images/testimonial/70/testimonial-2.jpg"
@@ -98,7 +98,7 @@
                     ]
                 }
             ]
-        }, 
+        },
         {
             "section": "brand-area",
             "items": [
@@ -183,7 +183,7 @@
             "section": "newsletter-area",
             "section_title": {
                 "title": "Sign up for our <span>Newsletters</span>",
-                "description":"Enter your email address to register to our newsletter subscription <br class='tw-hidden md:tw-block'>delivered on a regular basis!"
+                "description": "Enter your email address to register to our newsletter subscription <br class='tw-hidden md:tw-block'>delivered on a regular basis!"
             }
         }
     ]

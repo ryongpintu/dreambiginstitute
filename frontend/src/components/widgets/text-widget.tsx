@@ -17,9 +17,9 @@ const TextWidget = ({ className, mode }: TProps) => {
                     mode === "dark" && "tw-text-gray-400"
                 )}
             >
-                <p className="tw-mb-[11px]">Saraiya Stand</p>
+                <p className="tw-mb-[11px]">Saraiya Stand Near Pani Tanki</p>
                 <p className="tw-mb-[11px]">
-                    +91 92 29 854 855 (9am - 7pm , Monday - Friday){" "}
+                    +91 9229 854 855 (6am - 7pm , Monday - Sunday){" "}
                 </p>
                 <p className="tw-mb-[11px]">
                     <a
@@ -37,16 +37,16 @@ const TextWidget = ({ className, mode }: TProps) => {
                 color={mode === "dark" ? "white" : "light"}
                 className="tw-gap-6.1 tw-mt-6.1"
             >
-                <SocialLink href="https://facebook.com" label="Facebook lnik">
+                <SocialLink href="#" label="Facebook lnik">
                     <i className="fab fa-facebook-square" />
                 </SocialLink>
-                <SocialLink href="https://twitter.com" label="twitter lnik">
+                <SocialLink href="#" label="twitter lnik">
                     <i className="fab fa-twitter" />
                 </SocialLink>
-                <SocialLink href="https://instagram.com" label="instagram lnik">
+                <SocialLink href="#" label="instagram lnik">
                     <i className="fab fa-instagram" />
                 </SocialLink>
-                <SocialLink href="https://linkedin.com" label="linkedin lnik">
+                <SocialLink href="#" label="linkedin lnik">
                     <i className="fab fa-linkedin" />
                 </SocialLink>
             </Social>

@@ -5,20 +5,20 @@
             "section": "hero-area",
             "headings": [
                 {
-                    "id":1,
-                    "content":"Expand Your Possibilities"
+                    "id": 1,
+                    "content": "Expand Your Possibilities"
                 },
                 {
-                    "id":2,
-                    "content":"Intensively"
+                    "id": 2,
+                    "content": "Intensively"
                 },
                 {
-                    "id":3,
-                    "content":"Extensively"
+                    "id": 3,
+                    "content": "Extensively"
                 },
                 {
-                    "id":4,
-                    "content":"Positively"
+                    "id": 4,
+                    "content": "Positively"
                 }
             ],
             "texts": [
@@ -29,14 +29,14 @@
             ],
             "buttons": [
                 {
-                    "id":1,
+                    "id": 1,
                     "path": "/start-here",
-                    "content":"Free consultation",
+                    "content": "Free consultation",
                     "color": "light"
                 },
                 {
                     "id": 2,
-                    "content":"How we work",
+                    "content": "How we work",
                     "icon": "fas fa-play",
                     "variant": "outlined",
                     "color": "light"
@@ -44,7 +44,7 @@
             ],
             "images": [
                 {
-                    "id":1,
+                    "id": 1,
                     "src": "/images/intro/intro4/bg-1.jpg"
                 }
             ],
@@ -103,7 +103,7 @@
             "section": "funfact-area",
             "section_title": {
                 "title": "We prioritize & embrace the power of <span>Cooperation</span>",
-                "subtitle": "Everything starts with <strong>MaxCoach</strong>",
+                "subtitle": "Everything starts with <strong>Dream Big Institute</strong>",
                 "description": "Get better choice of course, lessons, duration and tutors from our catalog. Free consultation sessions available."
             },
             "motto": {
@@ -135,7 +135,7 @@
                     "counter": 100
                 }
             ]
-        }, 
+        },
         {
             "section": "video-area",
             "images": [
@@ -153,7 +153,7 @@
             "section": "course-area",
             "section_title": {
                 "title": "Signature <span>Courses</span>",
-                "subtitle":"Begin your journey at maxcoach"
+                "subtitle": "Begin your journey at Dream Big Institute"
             }
         },
         {
@@ -161,7 +161,7 @@
             "section_title": {
                 "title": "Enjoy <span>Our Companionship</span>",
                 "subtitle": "TOGETHER EXPAND AND GROW",
-                "description": "As learners, people can enjoy great companionship from MaxCoach mentors and educators. We can help you develop and grow at your best."
+                "description": "As learners, people can enjoy great companionship from Dream Big Institute mentors and educators. We can help you develop and grow at your best."
             },
             "buttons": [
                 {
@@ -202,7 +202,7 @@
                 "heading": "4.9/5.0",
                 "text": "by 700+ Students for 3200+ Sales"
             }
-        }, 
+        },
         {
             "section": "event-area",
             "section_title": {
@@ -219,7 +219,7 @@
             "section": "blog-area",
             "section_title": {
                 "title": "Trending on <span>Our Blogs</span>",
-                "subtitle":"Consider registering our courses?"
+                "subtitle": "Consider registering our courses?"
             }
         },
         {
@@ -279,7 +279,7 @@
             "section": "newsletter-area",
             "section_title": {
                 "title": "Subscribe <span>Newsletters</span>",
-                "description":"Enter your email address to register to our newsletter subscription <br class='tw-hidden md:tw-block'>delivered on a regular basis!"
+                "description": "Enter your email address to register to our newsletter subscription <br class='tw-hidden md:tw-block'>delivered on a regular basis!"
             }
         }
     ]

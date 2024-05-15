@@ -101,7 +101,7 @@ const ContactForm = forwardRef<HTMLFormElement, TProps>(
                         </label>
                         <Input
                             id="name"
-                            placeholder="Your Name *"
+                            placeholder="Full Name *"
                             bg="light"
                             feedbackText={errors?.name?.message}
                             state={hasKey(errors, "name") ? "error" : "success"}
@@ -119,7 +119,7 @@ const ContactForm = forwardRef<HTMLFormElement, TProps>(
                             id="phone"
                             type="tel"
                             bg="light"
-                            placeholder="Your phone number"
+                            placeholder="Phone number"
                             feedbackText={errors?.phone?.message}
                             state={
                                 hasKey(errors, "phone") ? "error" : "success"

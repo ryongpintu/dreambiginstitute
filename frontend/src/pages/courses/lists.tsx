@@ -2,7 +2,7 @@ import type { GetStaticProps, NextPage } from "next";
 import SEO from "@components/seo/page-seo";
 import Layout01 from "@layout/layout-01";
 import Breadcrumb from "@components/breadcrumb";
-import CourseArea from "@containers/course-full/layout-01";
+import CourseArea from "@containers/course/layout-03";
 import { ICourse } from "@utils/types";
 import { getallCourses } from "../../lib/course";
 
