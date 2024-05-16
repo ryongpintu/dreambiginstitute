@@ -5,7 +5,7 @@ import Input from "@ui/form-elements/input";
 import Button from "@ui/button";
 import { hasKey } from "@utils/methods";
 import Select from "@components/ui/form-elements/select";
-import { toast } from "react-toastify";
+import toast from "react-hot-toast";
 
 import { client, USER_API_END_POINT } from "services/user";
 import { AxiosError } from "axios";

@@ -1900,11 +1900,6 @@ clsx@^1.2.1:
   resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.2.1.tgz#0ddc4a20a549b59c93a4116bb26f5294ca17dc12"
   integrity sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==
 
-clsx@^2.1.0:
-  version "2.1.1"
-  resolved "https://pkgs.dev.azure.com/spnsdigital/_packaging/sapiens-registry/npm/registry/clsx/-/clsx-2.1.1.tgz#eed397c9fd8bd882bfb18deab7102049a2f32999"
-  integrity sha1-7tOXyf2L2IK/sY3qtxAgSaLzKZk=
-
 color-convert@^1.9.0:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-1.9.3.tgz#bb71850690e1f136567de629d2d5471deda4c1e8"
@@ -2932,6 +2927,11 @@ globrex@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/globrex/-/globrex-0.1.2.tgz#dd5d9ec826232730cd6793a5e33a9302985e6098"
   integrity sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==
+
+goober@^2.1.10:
+  version "2.1.14"
+  resolved "https://pkgs.dev.azure.com/spnsdigital/_packaging/sapiens-registry/npm/registry/goober/-/goober-2.1.14.tgz#4a5c94fc34dc086a8e6035360ae1800005135acd"
+  integrity sha1-SlyU/DTcCGqOYDU2CuGAAAUTWs0=
 
 gopd@^1.0.1:
   version "1.0.1"
@@ -4185,6 +4185,13 @@ react-hook-form@^7.39.4:
   resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.43.1.tgz#0d0d7822f3f7fc05ffc41d5f012b49b90fcfa0f0"
   integrity sha512-+s3+s8LLytRMriwwuSqeLStVjRXFGxgjjx2jED7Z+wz1J/88vpxieRQGvJVvzrzVxshZ0BRuocFERb779m2kNg==
 
+react-hot-toast@^2.4.1:
+  version "2.4.1"
+  resolved "https://pkgs.dev.azure.com/spnsdigital/_packaging/sapiens-registry/npm/registry/react-hot-toast/-/react-hot-toast-2.4.1.tgz#df04295eda8a7b12c4f968e54a61c8d36f4c0994"
+  integrity sha1-3wQpXtqKexLE+WjlSmHI029MCZQ=
+  dependencies:
+    goober "^2.1.10"
+
 react-is@^16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -4194,13 +4201,6 @@ react-simple-typewriter@^4.0.5:
   version "4.0.5"
   resolved "https://registry.yarnpkg.com/react-simple-typewriter/-/react-simple-typewriter-4.0.5.tgz#404a1e12ccb97ad7813b48f8e58813117fe8e3fb"
   integrity sha512-2CmVpD1kTifRE8gixr2z+1aYS136ZbAC/UATNzvkzl4tSiThT/ATXH4rOGVwWLTlOWCVnSewObXo/kJlV2HMxw==
-
-react-toastify@^10.0.5:
-  version "10.0.5"
-  resolved "https://pkgs.dev.azure.com/spnsdigital/_packaging/sapiens-registry/npm/registry/react-toastify/-/react-toastify-10.0.5.tgz#6b8f8386060c5c856239f3036d1e76874ce3bd1e"
-  integrity sha1-a4+DhgYMXIViOfMDbR52h0zjvR4=
-  dependencies:
-    clsx "^2.1.0"
 
 react@18.2.0:
   version "18.2.0"

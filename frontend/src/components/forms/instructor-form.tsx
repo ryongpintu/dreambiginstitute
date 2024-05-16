@@ -5,7 +5,7 @@ import Input from "@ui/form-elements/input";
 import { hasKey } from "@utils/methods";
 import { client, FACULTY_API_END_POINT } from "services/user";
 import Select from "@components/ui/form-elements/select";
-import { toast } from "react-toastify";
+import toast from "react-hot-toast";
 import { AxiosError } from "axios";
 
 type TProps = {
