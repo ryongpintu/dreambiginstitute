@@ -4,7 +4,7 @@
     "thumbnail": {
         "src": "/images/courses/370/course-2.jpg"
     },
-    "published_at": "2018-01-01T00:00:00.000Z",
+    "published_at": "2024-05-21T00:00:00.000Z",
     "category": "Interview Preparation",
     "price": 0,
     "currency": "$",
@@ -16,7 +16,13 @@
     "membership": ["diamond"],
     "isPopular": true,
     "excerpt": "Learn how to speak confidently",
-    "curriculum": ["chapter-05", "chapter-06", "chapter-07"],
+    "curriculum": [
+        "chapter-101",
+        "chapter-102",
+        "chapter-103",
+        "chapter-104",
+        "chapter-105"
+    ],
     "reviews": {
         "average": 4.5,
         "count": 2,
@@ -58,12 +64,12 @@
         {
             "id": 1,
             "type": "text",
-            "content": "Now more than ever, corporations are investing heavily in IT. The quality of these investments affects the daily work of millions."
+            "content": "Speaking English is highly valuable in today's globalized world, English is the most widely spoken language worldwide, serving as a common medium for people from different linguistic backgrounds to communicate"
         },
         {
             "id": 2,
             "type": "text",
-            "content": "Yet it’s not uncommon to see industry surveys where the failure rates for IT projects is over 50%. It’s possible to do better and it’s possible to do so consistently. Use the Business Model Canvas to focus your company strategy and facilitate buy-in from stakeholders."
+            "content": "English proficiency is a highly sought-after skill in the global job market, opening doors to job opportunities in multinational companies."
         },
         {
             "id": 3,
@@ -76,12 +82,12 @@
         {
             "id": 4,
             "type": "text",
-            "content": "In this two-week course, we’ll step through major challenges within corporate IT and how to address them with the disciplined use of design thinking, Lean Startup, and agile as a team framework."
+            "content": "Companies often use English to market their products and services to a global audience, making it essential for business expansion and success."
         },
         {
             "id": 5,
             "type": "text",
-            "content": "Translate your work on the Canvas to specific charters in IT. Rapidly prototype strategically-aligned processes for implementation within your IT infrastructure. How do you define a customer-centric strategy you can actually execute? To do strategic IT, you’ve got to have a strategy! Ideally, you need one that’s easy to understand and use as a clear basis for action."
+            "content": "The tech industry predominantly operates in English, with programming languages, software documentation, and tech forums often using English as the primary language."
         },
         {
             "id": 6,
@@ -96,17 +102,17 @@
         {
             "id": 8,
             "type": "text",
-            "content": "A customer-centric way of doing business is a way that provides a positive customer experience before and after the sale in order to drive repeat business, enhance customer loyalty and improve business growth."
+            "content": "English is widely used on social media platforms, allowing individuals to connect with a global audience and participate in international conversations."
         },
         {
             "id": 9,
             "type": "text",
-            "content": "But, a customer-centric company is more than a company that offers good service. Both Amazon and Zappos are prime quizples of brands that are customer-centric and have spent years creating a culture around the customer and their needs. Their commitment to delivering customer value is genuine – In fact, Zappos is happy to fire employees if they do not fit within their customer-centric culture!"
+            "content": "Speaking English is a critical skill that facilitates global communication, access to education, career opportunities, and cultural exchange!"
         },
         {
             "id": 10,
             "type": "text",
-            "content": "But, how important is being customer-centric? The good news is that’s becoming very important! Econsultancy recently asked what the most important characteristic is in order to establish a truly “digital-native” culture. The answer to that question and leading the responses with 58% was to be customer-centric."
+            "content": "As the world becomes increasingly interconnected, the importance of English proficiency continues to grow, making it an essential tool for personal and professional development."
         },
         {
             "id": 11,

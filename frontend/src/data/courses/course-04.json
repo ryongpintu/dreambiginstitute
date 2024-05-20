@@ -1,12 +1,12 @@
 {
     "id": 4,
-   "title": "CBSE Board(Class 8 to 10)-Maths and Science",
+    "title": "CBSE Board(Class 8 to 10)-Maths and Science",
     "thumbnail": {
         "src": "/images/courses/370/course-4.jpg"
     },
-    "published_at": "2018-03-01T00:00:00.000Z",
+    "published_at": "2024-05-21T00:00:00.000Z",
     "category": "Business",
-    "price": 85.00,
+    "price": 85.0,
     "currency": "$",
     "language": "english",
     "instructor": 1,
@@ -15,7 +15,8 @@
     "total_students": 67,
     "membership": ["diamond"],
     "excerpt": "CBSE Board(Class 8 to 10)-Maths and Science",
-    "curriculum": ["chapter-02", "chapter-03", "chapter-05", "chapter-06", "chapter-07"],
+    "curriculum": ["chapter-201", "chapter-202", "chapter-203"],
+
     "reviews": {
         "average": 4.5,
         "count": 2,
@@ -57,12 +58,12 @@
         {
             "id": 1,
             "type": "text",
-            "content": "Now more than ever, corporations are investing heavily in IT. The quality of these investments affects the daily work of millions."
+            "content": "Learning science and math is crucial in today's world for a multitude of reasons, spanning from personal development to societal progress"
         },
         {
             "id": 2,
             "type": "text",
-            "content": "Yet it’s not uncommon to see industry surveys where the failure rates for IT projects is over 50%. It’s possible to do better and it’s possible to do so consistently. Use the Business Model Canvas to focus your company strategy and facilitate buy-in from stakeholders."
+            "content": "Science and math are at the core of technological innovation. Understanding these subjects fosters creativity and innovation, leading to new technologies and solutions to global challenges"
         },
         {
             "id": 3,
@@ -75,38 +76,19 @@
         {
             "id": 4,
             "type": "text",
-            "content": "In this two-week course, we’ll step through major challenges within corporate IT and how to address them with the disciplined use of design thinking, Lean Startup, and agile as a team framework."
+            "content": "Our method of teaching will be unique , our goal is to teach a student with practical,  that will help student to think about day to day scenario and can co relate with knowledge "
         },
         {
             "id": 5,
             "type": "text",
-            "content": "Translate your work on the Canvas to specific charters in IT. Rapidly prototype strategically-aligned processes for implementation within your IT infrastructure. How do you define a customer-centric strategy you can actually execute? To do strategic IT, you’ve got to have a strategy! Ideally, you need one that’s easy to understand and use as a clear basis for action."
-        },
-        {
-            "id": 6,
-            "type": "text",
-            "content": "That’s what you’ll learn in this course."
+            "content": "We will be coving complete syllabus . and will organize a test on regular basis to evaluate the student progress"
         },
         {
             "id": 7,
             "type": "heading",
             "content": "A Short Description"
         },
-        {
-            "id": 8,
-            "type": "text",
-            "content": "A customer-centric way of doing business is a way that provides a positive customer experience before and after the sale in order to drive repeat business, enhance customer loyalty and improve business growth."
-        },
-        {
-            "id": 9,
-            "type": "text",
-            "content": "But, a customer-centric company is more than a company that offers good service. Both Amazon and Zappos are prime quizples of brands that are customer-centric and have spent years creating a culture around the customer and their needs. Their commitment to delivering customer value is genuine – In fact, Zappos is happy to fire employees if they do not fit within their customer-centric culture!"
-        },
-        {
-            "id": 10,
-            "type": "text",
-            "content": "But, how important is being customer-centric? The good news is that’s becoming very important! Econsultancy recently asked what the most important characteristic is in order to establish a truly “digital-native” culture. The answer to that question and leading the responses with 58% was to be customer-centric."
-        },
+
         {
             "id": 11,
             "type": "text",

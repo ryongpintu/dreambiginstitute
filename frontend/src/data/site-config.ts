@@ -1,5 +1,5 @@
 export default {
-    name: "DreamBig",
+    name: "DreamBig Institute",
     titleTemplate: "Software Training Institute",
-    description: "Training se Lekar Job Tak ka Safar",
+    description: "Training se... Job Tak ka Safar",
 };

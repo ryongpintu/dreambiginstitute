@@ -85,7 +85,7 @@ const PageSeo = ({
             {jsonLdType === "course" && instructor && (
                 <CourseJsonLd
                     courseName={title as string}
-                    description="Introductory CS course laying out the basics."
+                    description="Courses are designed for Job Placement"
                     provider={{
                         name: instructor.name,
                         url: href,

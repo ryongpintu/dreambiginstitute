@@ -13,6 +13,12 @@ export default class MyDocument extends Document {
                     <Main />
                     <div id="portal" />
                     <NextScript />
+                    <noscript
+                        dangerouslySetInnerHTML={{
+                            __html: `< src="https://www.googletagmanager.com/ns.html?id=GTM-MVT3ZVC4"
+height="0" width="0" style="display:none;visibility:hidden"/>`,
+                        }}
+                    />
                 </body>
             </Html>
         );

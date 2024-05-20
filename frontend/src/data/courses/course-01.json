@@ -4,7 +4,7 @@
     "thumbnail": {
         "src": "/images/courses/370/course-1.jpg"
     },
-    "published_at": "2020-12-01T00:00:00.000Z",
+    "published_at": "2024-05-21T00:00:00.000Z",
     "category": "Technology",
     "price": 50.0,
     "currency": "$",
@@ -20,7 +20,10 @@
         "chapter-02",
         "chapter-03",
         "chapter-04",
-        "chapter-05"
+        "chapter-05",
+        "chapter-06",
+        "chapter-07",
+        "chapter-08"
     ],
     "reviews": {
         "average": 4.5,
@@ -63,12 +66,12 @@
         {
             "id": 1,
             "type": "text",
-            "content": "Now more than ever, corporations are investing heavily in IT. The quality of these investments affects the daily work of millions."
+            "content": "Computer knowledge is a foundational skill in today's society. "
         },
         {
             "id": 2,
             "type": "text",
-            "content": "Yet it’s not uncommon to see industry surveys where the failure rates for IT projects is over 50%. It’s possible to do better and it’s possible to do so consistently. Use the Business Model Canvas to focus your company strategy and facilitate buy-in from stakeholders."
+            "content": "It enhances efficiency, provides access to information, opens career opportunities, and integrates seamlessly into daily life"
         },
         {
             "id": 3,
@@ -81,12 +84,12 @@
         {
             "id": 4,
             "type": "text",
-            "content": "In this two-week course, we’ll step through major challenges within corporate IT and how to address them with the disciplined use of design thinking, Lean Startup, and agile as a team framework."
+            "content": "As technology continues to advance, the importance of computer literacy will only grow, making it a critical component of personal and professional development"
         },
         {
             "id": 5,
             "type": "text",
-            "content": "Translate your work on the Canvas to specific charters in IT. Rapidly prototype strategically-aligned processes for implementation within your IT infrastructure. How do you define a customer-centric strategy you can actually execute? To do strategic IT, you’ve got to have a strategy! Ideally, you need one that’s easy to understand and use as a clear basis for action."
+            "content": "Platforms like Facebook, Twitter, and LinkedIn enable people to stay connected, share ideas, and network professionally. Computer literacy helps users navigate these platforms effectively."
         },
         {
             "id": 6,
@@ -101,17 +104,7 @@
         {
             "id": 8,
             "type": "text",
-            "content": "A customer-centric way of doing business is a way that provides a positive customer experience before and after the sale in order to drive repeat business, enhance customer loyalty and improve business growth."
-        },
-        {
-            "id": 9,
-            "type": "text",
-            "content": "But, a customer-centric company is more than a company that offers good service. Both Amazon and Zappos are prime quizples of brands that are customer-centric and have spent years creating a culture around the customer and their needs. Their commitment to delivering customer value is genuine – In fact, Zappos is happy to fire employees if they do not fit within their customer-centric culture!"
-        },
-        {
-            "id": 10,
-            "type": "text",
-            "content": "But, how important is being customer-centric? The good news is that’s becoming very important! Econsultancy recently asked what the most important characteristic is in order to establish a truly “digital-native” culture. The answer to that question and leading the responses with 58% was to be customer-centric."
+            "content": "Understanding computers and the internet helps individuals protect their personal information and recognize potential security threats"
         },
         {
             "id": 11,

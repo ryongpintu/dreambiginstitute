@@ -8,33 +8,28 @@ const SEO = () => {
             titleTemplate={`%s - ${siteConfig.titleTemplate}`}
             defaultTitle={siteConfig.name}
             description={siteConfig.description}
-            canonical="https://maxcoach-react.pages.dev/"
+            canonical="https://idreambig.in/"
             openGraph={{
                 type: "website",
                 locale: "en_IE",
                 site_name: siteConfig.name,
                 images: [
                     {
-                        url: "https://maxcoach-react.pages.dev/images/about/about-me/about-me-popup-video-poster.jpg",
+                        url: "https://idreambig.in/images/about/about-me/about-me-popup-video-poster.jpg",
                         width: 800,
                         height: 600,
                         alt: "Og Image Alt",
                     },
                     {
-                        url: "https://maxcoach-react.pages.dev/images/about/about-me/about-me-popup-video-poster.jpg",
+                        url: "https://idreambig.in/images/about/about-me/about-me-popup-video-poster.jpg",
                         width: 900,
                         height: 800,
                         alt: "Og Image Alt Second",
                     },
                 ],
             }}
-            twitter={{
-                handle: "@handle",
-                site: "@site",
-                cardType: "summary_large_image",
-            }}
             facebook={{
-                appId: "1234567890",
+                appId: "61559781692203",
             }}
             additionalMetaTags={[
                 {

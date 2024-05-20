@@ -3,42 +3,115 @@
         "id": "chapter-01",
         "title": "Computer knowledge",
         "description": "General introduction about computer and its parts",
-        "lessons": ["lesson-01", "lesson-02", "lesson-03"]
+        "lessons": []
     },
     {
         "id": "chapter-02",
         "title": "Basic software introduction ",
         "description": "Learn about the basics apps like Excel , Powerpoint, Word",
-        "lessons": ["lesson-04", "lesson-05"]
+        "lessons": []
     },
     {
         "id": "chapter-03",
-        "title": "Learn to type fast like pro",
-        "description": "Learn to accelerate your typing speed",
-        "lessons": ["lesson-06", "lesson-07", "lesson-08"]
+        "title": "Learn typing ",
+        "description": "Learn to accelerate your typing speed, its very important skills to have when you training for software development",
+        "lessons": []
     },
     {
         "id": "chapter-04",
         "title": "Basic of Programming",
         "description": "Learn about the programming language C++ and Java",
-        "lessons": ["lesson-09", "lesson-10", "lesson-11"]
+        "lessons": []
     },
     {
         "id": "chapter-05",
-        "title": "Interview Preparation",
-        "description": "Learn how to speak confidently in Hindi and english",
-        "lessons": ["lesson-12", "lesson-13", "lesson-14"]
+        "title": "Web Development: HTML",
+        "description": "First step towards web development journey, learn about various tag and usage",
+        "lessons": []
     },
     {
         "id": "chapter-06",
-        "title": "How to speak clearly",
-        "description": "Learn to speak crystal clear",
-        "lessons": ["lesson-15", "lesson-16", "lesson-17"]
+        "title": "Web Development: CSS",
+        "description": "Second step towards web development journey, learn to style your components",
+        "lessons": []
     },
     {
         "id": "chapter-07",
+        "title": "Web Development: JAVASCRIPT",
+        "description": "Final Step : Learn to make your website user interactive",
+        "lessons": []
+    },
+    {
+        "id": "chapter-08",
+        "title": "Web Development: Project",
+        "description": "Choose project based on your interest and develope and make it live so that your friends can see",
+        "lessons": []
+    },
+    {
+        "id": "chapter-101",
+        "title": "Basic Greetings & Salutations",
+        "description": "How to Introduce two people",
+        "lessons": []
+    },
+    {
+        "id": "chapter-102",
+        "title": "Learn to Wish",
+        "description": "Learn to Wish and How to Answer if somebody wishes you",
+        "lessons": []
+    },
+    {
+        "id": "chapter-103",
+        "title": "Learn about small daily used sentences",
+        "description": "We will be learning about frequently used small sentences in day to day life",
+        "lessons": []
+    },
+
+    {
+        "id": "chapter-104",
         "title": "Personality development",
-        "description": "Learn necessary body language and discipline  ",
-        "lessons": ["lesson-18", "lesson-19", "lesson-20"]
+        "description": "Learn necessary body language and discipline ",
+        "lessons": []
+    },
+    {
+        "id": "chapter-105",
+        "title": "Group Discussion ",
+        "description": "Learn to speak in front of people about topics",
+        "lessons": []
+    },
+    {
+        "id": "chapter-201",
+        "title": "Complete Syllabus of Mathematics",
+        "description": "Covering all the chapters in details from basic to advance",
+        "lessons": []
+    },
+    {
+        "id": "chapter-202",
+        "title": "Complete Syllabus of Science",
+        "description": "We will be covering all chapters with practical, so that students can visualize it and learn with great live experience ",
+        "lessons": []
+    },
+    {
+        "id": "chapter-203",
+        "title": "Complete Syllabus of English",
+        "description": "We will be covering all chapters of English",
+        "lessons": []
+    },
+    {
+        "id": "chapter-301",
+        "title": "Complete Syllabus of History",
+        "description": "We will be covering all chapters of History",
+        "lessons": []
+    },
+    {
+        "id": "chapter-302",
+        "title": "Complete Syllabus of Geography",
+        "description": "We will be covering all chapters of Geography",
+        "lessons": []
+    },
+    {
+        "id": "chapter-303",
+        "title": "Complete Syllabus of Economics",
+        "description": "We will be covering all chapters of Economics",
+        "lessons": []
     }
 ]

@@ -42,7 +42,7 @@ const Home: PageProps = ({ data }) => {
 
     return (
         <>
-            <SEO title="Course Portal" />
+            <SEO title="Learn Software Training and Communication from India's Best Institute" />
             <HeroArea data={content?.["hero-area"]} />
             <BrandArea data={content?.["brand-area"]} />
             <CourseArea
