@@ -39,35 +39,49 @@ const ClassOptions = [
 
 const SubjOptions = [
     { label: "Select Course", value: "" },
-    { value: "MS", label: "Math + Science" },
+    { value: "MS", label: "Math + Science - Fee: ₹350" },
     {
         value: "Software,Spoken Eng",
-        label: "Software Training+ Spoken English",
+        label: "Software Training+ Spoken English - Fee: ₹500",
     },
 
     {
         value: "MS,Software,Spoken Eng",
-        label: "Both(Math+Science and Software T + Spoken Eng)",
+        label: "Both(Math+Science and Software T + Spoken Eng) - Fee: 750",
+    },
+];
+
+const JacSubjOptions = [
+    { label: "Select Course", value: "" },
+    { value: "MS", label: "Math + Science - Fee: ₹250" },
+    {
+        value: "Software,Spoken Eng",
+        label: "Software Training+ Spoken English - Fee: ₹500",
+    },
+
+    {
+        value: "MS,Software,Spoken Eng",
+        label: "Both(Math+Science and Software T + Spoken Eng) - Fee: 600",
     },
 ];
 const ArtsSubOptions = [
     { label: "Select Course", value: "" },
-    { value: "Arts", label: "Arts" },
+    { value: "Arts", label: "Arts - Fee: ₹500" },
     {
         value: "Software,Spoken Eng",
-        label: "Software Training+ Spoken English",
+        label: "Software Training+ Spoken English  - Fee: ₹500",
     },
 
     {
         value: "MS,Software,Spoken Eng",
-        label: "Both(Arts and Software T + Spoken Eng)",
+        label: "Both(Arts and Software T + Spoken Eng) - Fee: ₹500",
     },
 ];
 
 const ContactForm = forwardRef<HTMLFormElement, TProps>(
     ({ className }, ref) => {
         const [classSelected, setClassSelected] = useState("");
-
+        const [boardSelected, setBoardSelected] = useState("");
         const {
             register,
             handleSubmit,
@@ -86,6 +100,15 @@ const ContactForm = forwardRef<HTMLFormElement, TProps>(
                 const knownError = err as AxiosError;
                 toast.error(knownError?.response?.data as string);
             }
+        };
+
+        const getCourseOptions = () => {
+            const JacVsCbse =
+                boardSelected === "CBSE" ? SubjOptions : JacSubjOptions;
+            const courseOptions =
+                classSelected === "eleven" ? ArtsSubOptions : JacVsCbse;
+
+            return courseOptions;
         };
 
         return (
@@ -147,6 +170,9 @@ const ContactForm = forwardRef<HTMLFormElement, TProps>(
                         {...register("board", {
                             required: "board is required",
                         })}
+                        onChange={({ target }) =>
+                            setBoardSelected(target.value)
+                        }
                     />
                 </div>
                 <div className="tw-mb-5 md:tw-mb-7.5">
@@ -181,11 +207,7 @@ const ContactForm = forwardRef<HTMLFormElement, TProps>(
                     <Select
                         id="subjectChoice"
                         placeholder="Subject *"
-                        options={
-                            classSelected !== "eleven"
-                                ? SubjOptions
-                                : ArtsSubOptions
-                        }
+                        options={getCourseOptions()}
                         bg="light"
                         feedbackText={errors?.subjectChoice?.message}
                         state={
