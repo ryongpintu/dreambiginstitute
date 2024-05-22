@@ -1,9 +1,6 @@
 module.exports = function (req, res, next) {
   // Website you wish to allow to connect
-  res.setHeader(
-    'Access-Control-Allow-Origin',
-    'https://www.idreambig.in, https://idreambig.in, http://www.idreambig.in, http://idreambig.in'
-  );
+  res.setHeader('Access-Control-Allow-Origin', 'https://idreambig.in');
 
   // Request methods you wish to allow
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
