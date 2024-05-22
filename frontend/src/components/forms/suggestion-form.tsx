@@ -45,10 +45,7 @@ const SuggestionForm = ({ className }: { className?: string }) => {
             <h4 className="tw-text-[28px] tw-mb-5 sm:tw-text-[34px] sm:tw-mb-9 tw-leading-snug tw-text-center">
                 Please Share Your valuable suggestion
             </h4>
-            <form
-                className={clsx("tw-max-w-[770px] tw-mx-auto", className)}
-                onSubmit={handleSubmit(onSubmit)}
-            >
+            <form className="suggestions" onSubmit={handleSubmit(onSubmit)}>
                 <div className="tw-grid sm:tw-grid-cols-2 tw-gap-5 tw-mb-5 lg:tw-gap-7.5 lg:tw-mb-7.5">
                     <div>
                         <label htmlFor="name" className="tw-sr-only">

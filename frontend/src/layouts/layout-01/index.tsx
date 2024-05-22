@@ -28,7 +28,7 @@ const Layout01 = ({
                 transparent={headerTransparent}
                 mode={headerMode}
             />
-            <main className="tw-relative">{children}</main>
+            <main className="tw-relative 132">{children}</main>
             <Footer mode={footerMode} />
             <ScrollToTop />
         </>
