@@ -98,8 +98,8 @@
     },
     {
         "id": "chapter-301",
-        "title": "Complete Syllabus of History",
-        "description": "We will be covering all chapters of History",
+        "title": "MS - Word",
+        "description": "Create documents and question typings",
         "lessons": []
     },
     {
@@ -112,6 +112,72 @@
         "id": "chapter-303",
         "title": "Complete Syllabus of Economics",
         "description": "We will be covering all chapters of Economics",
+        "lessons": []
+    },
+    {
+        "id": "chapter-601",
+        "title": "MS - Word",
+        "description": "Create documents and question typings",
+        "lessons": []
+    },
+    {
+        "id": "chapter-602",
+        "title": "MS - Excel",
+        "description": "We will be covering idea and shorts cuts for data entry",
+        "lessons": []
+    },
+    {
+        "id": "chapter-603",
+        "title": "MS - Powerpoint",
+        "description": "We will be covering all idea to make great presentation",
+        "lessons": []
+    },
+    {
+        "id": "chapter-604",
+        "title": "MS - Picture Manager",
+        "description": "We will be covering shorts cut for photo editor and resize",
+        "lessons": []
+    },
+    {
+        "id": "chapter-605",
+        "title": "MS - Access",
+        "description": "We will be covering all details about the database manager",
+        "lessons": []
+    },
+    {
+        "id": "chapter-701",
+        "title": "Computers Basic",
+        "description": "Cpu, mouse , MS paint , notepad, files and folders ,snipping tools ",
+        "lessons": []
+    },
+    {
+        "id": "chapter-702",
+        "title": "DCA Complete syllabus",
+        "description": "We will be covering about all MS packages",
+        "lessons": []
+    },
+    {
+        "id": "chapter-703",
+        "title": "Tally for GST",
+        "description": "We will be covering Account Basics , Accounts , Account with Inventory",
+        "lessons": []
+    },
+    {
+        "id": "chapter-801",
+        "title": "Account Basics",
+        "description": "Basics of account theory and practical ",
+        "lessons": []
+    },
+    {
+        "id": "chapter-802",
+        "title": "Account with inventory",
+        "description": "We will be covering about Inventory Management",
+        "lessons": []
+    },
+    {
+        "id": "chapter-803",
+        "title": "Account",
+        "description": "We will be covering details about Account ",
         "lessons": []
     }
 ]

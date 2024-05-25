@@ -1,0 +1,115 @@
+{
+    "id": 1,
+    "title": "ADCA+",
+    "thumbnail": {
+        "src": "/images/courses/370/course-1.jpg"
+    },
+    "published_at": "2024-05-21T00:00:00.000Z",
+    "category": "Technology",
+    "price": 50.0,
+    "currency": "$",
+    "language": "English/Hindi",
+    "instructor": 1,
+    "duration": "48 hours",
+    "total_lectures": 24,
+    "total_students": 69,
+    "membership": ["silver", "gold", "diamond"],
+    "excerpt": "",
+    "curriculum": [
+        "chapter-701",
+        "chapter-702",
+        "chapter-703",
+        "chapter-704",
+        "chapter-705",
+        "chapter-706",
+        "chapter-707",
+        "chapter-708"
+    ],
+    "reviews": {
+        "average": 4.5,
+        "count": 2,
+        "rating_details": {
+            "5": 1,
+            "4": 1,
+            "3": 0,
+            "2": 0,
+            "1": 0
+        },
+        "items": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Edna Watson",
+                    "avatar": {
+                        "src": "/images/review-author/author1.jpeg"
+                    }
+                },
+                "rating": 5.0,
+                "title": "Cover all my needs",
+                "review": "The course identify things we want to change and then figure out the things that need to be done to create the desired outcome. The course helped me in clearly define problems and generate a wider variety of quality solutions. Support more structures analysis of options leading to better decisions."
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Owen Christ",
+                    "avatar": {
+                        "src": "/images/review-author/author2.jpeg"
+                    }
+                },
+                "rating": 4.5,
+                "title": "Engaging & Fun",
+                "review": "This is the third course I attend from you, and I absolutely loved all of them. Especially this one on leadership. Your method of explaining the concepts, fun, engaging and with real-world quizples, is excellent. This course will help me a lot in my job, my career, and life in general, and I thank you for that. Thank you for improving the lives of many people with engaging and in-depth courses."
+            }
+        ]
+    },
+    "description": [
+        {
+            "id": 1,
+            "type": "text",
+            "content": "Computer knowledge is a foundational skill in today's society. "
+        },
+        {
+            "id": 2,
+            "type": "text",
+            "content": "It enhances efficiency, provides access to information, opens career opportunities, and integrates seamlessly into daily life"
+        },
+        {
+            "id": 3,
+            "type": "iframe",
+            "content": {
+                "src": "https://www.youtube.com/embed/m-X1ExlQ9uE?feature=oembed",
+                "alt": "Drive Digital Transformation With Platform Strategies | Info-Tech Analyst Perspective"
+            }
+        },
+        {
+            "id": 4,
+            "type": "text",
+            "content": "As technology continues to advance, the importance of computer literacy will only grow, making it a critical component of personal and professional development"
+        },
+        {
+            "id": 5,
+            "type": "text",
+            "content": "Platforms like Facebook, Twitter, and LinkedIn enable people to stay connected, share ideas, and network professionally. Computer literacy helps users navigate these platforms effectively."
+        },
+        {
+            "id": 6,
+            "type": "text",
+            "content": "That’s what you’ll learn in this course."
+        },
+        {
+            "id": 7,
+            "type": "heading",
+            "content": "A Short Description"
+        },
+        {
+            "id": 8,
+            "type": "text",
+            "content": "Understanding computers and the internet helps individuals protect their personal information and recognize potential security threats"
+        },
+        {
+            "id": 11,
+            "type": "text",
+            "content": "Enroll in this course to find out."
+        }
+    ]
+}

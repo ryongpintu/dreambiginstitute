@@ -41,13 +41,13 @@ const SubjOptions = [
     { label: "Select Course", value: "" },
     { value: "MS", label: "Math + Science - Fee: ₹350" },
     {
-        value: "Software,Spoken Eng",
-        label: "Software Training+ Spoken English - Fee: ₹500",
+        value: "Computer,Spoken Eng",
+        label: "Computer Training+ Spoken English - Fee: ₹500",
     },
 
     {
-        value: "MS,Software,Spoken Eng",
-        label: "Both(Math+Science and Software T + Spoken Eng) - Fee: 750",
+        value: "MS,Computer,Spoken Eng",
+        label: "Both(Math+Science and Computer T + Spoken Eng) - Fee: 750",
     },
 ];
 
@@ -55,26 +55,34 @@ const JacSubjOptions = [
     { label: "Select Course", value: "" },
     { value: "MS", label: "Math + Science - Fee: ₹250" },
     {
-        value: "Software,Spoken Eng",
-        label: "Software Training+ Spoken English - Fee: ₹500",
+        value: "Computer,Spoken Eng",
+        label: "Computer Training+ Spoken English - Fee: ₹500",
     },
 
     {
-        value: "MS,Software,Spoken Eng",
-        label: "Both(Math+Science and Software T + Spoken Eng) - Fee: 600",
+        value: "MS,Computer,Spoken Eng",
+        label: "Both(Math+Science and Computer T + Spoken Eng) - Fee: 600",
     },
 ];
 const ArtsSubOptions = [
     { label: "Select Course", value: "" },
     { value: "Arts", label: "Arts - Fee: ₹500" },
     {
-        value: "Software,Spoken Eng",
-        label: "Software Training+ Spoken English  - Fee: ₹500",
+        value: "Computer,Spoken Eng",
+        label: "Computer Training+ Spoken English - Fee: ₹500",
+    },
+    {
+        value: "DCA",
+        label: "DCA  - Fee: ₹2000",
     },
 
     {
-        value: "MS,Software,Spoken Eng",
-        label: "Both(Arts and Software T + Spoken Eng) - Fee: ₹500",
+        value: "ADCA",
+        label: "ADCA + - Fee: ₹3500",
+    },
+    {
+        value: "ADCA_Arts",
+        label: "ADCA+ and Art Course - Fee: ₹4000",
     },
 ];
 

@@ -83,7 +83,7 @@ export const getStaticProps: GetStaticProps = () => {
             "total_students",
         ],
         0,
-        6
+        8
     );
     const { blogs: recentPosts } = getAllBlogs(["title"], 0, 5);
     const { blogs: recentPostsWithImage } = getAllBlogs(
